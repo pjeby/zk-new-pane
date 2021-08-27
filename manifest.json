@@ -1,8 +1,8 @@
 {
   "id": "zk-new-pane",
   "name": "Open Zettelkasten in New Pane",
-  "version": "0.0.1",
-  "description": "Adds a command to open a new Zettel in a new pane (or Ctrl-click the ribbon button)",
+  "version": "0.0.2",
+  "description": "Adds a command to open a new Zettel in a new pane (or Ctrl/Cmd-click the ribbon button)",
   "minAppVersion": "0.12.12",
   "isDesktopOnly": false
 }

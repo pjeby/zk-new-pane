@@ -23,6 +23,7 @@ export default class ZkNewPane extends Plugin {
             if (!this.zkp.enabled) throw new Error("Zettelkasten core plugin must be enabled")
             await this.zkp.instance.onCreateNote();
             this.app.workspace.setActiveLeaf(leaf);
+            leaf.setEphemeralState({rename: "end"});
             remove();
         } catch(e) {
             remove();
